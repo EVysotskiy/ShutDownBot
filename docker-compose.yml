@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  shutdown:
+    container_name: ShutDownApp
+    build: ./Backend/Server/.
+    restart: unless-stopped
+  
